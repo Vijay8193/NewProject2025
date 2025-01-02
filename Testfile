@@ -1,0 +1,7 @@
+//Ternary operator inside a funtion and giving argument
+function Election(x){
+let age = 20
+let limit = (age>=18 && age<=70)? "ELigible" : "Not Eligible"
+console.log(limit);
+}
+Election(1000)
